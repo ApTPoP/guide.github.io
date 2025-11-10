@@ -15,8 +15,8 @@ nav {
 }
 
 nav .logo a {
-  padding-left: 1em;
   padding-right: 3em;
+  padding-left: 1em;
   padding-top: 0.25em;
   float: left;
   font-size: 3em;
@@ -29,18 +29,17 @@ nav .logo a {
 }
 
 nav ul{
+   padding-right: 1em;
    padding-top: 0.75em;
    float: right;
-   padding-right: 1em;
 }
 nav li{
    display: inline-block;
    list-style: none;
 }
 nav li a{
-   font-size: 15px;
+   font-size: 1em;
    text-transform: uppercase;
-   padding:0px 125px;
    color: white;
    text-decoration: none;
 }
@@ -84,7 +83,6 @@ nav ul li a, .dropbtn {
 .container {
   display: flex;
   justify-content: center; 
-  align-items: center;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   border-radius: 18px;
   padding: 10px; 
